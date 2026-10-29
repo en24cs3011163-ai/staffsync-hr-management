@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "HR Admin",
+      "email": "admin@staffsync.demo",
+      "passwordHash": "$2a$10$gFT0sEA3SNl7rhCuuJH/RexSGNav3w5qFaTUB9O6htXBluOi2sJYK",
+      "role": "admin"
+    }
+  ],
+  "employees": [
+    {
+      "id": "e1",
+      "name": "Aarav Sharma",
+      "email": "aarav@staffsync.demo",
+      "department": "Engineering",
+      "position": "Frontend Developer",
+      "phone": "9876501001",
+      "status": "Active",
+      "joinedAt": "2024-02-12"
+    },
+    {
+      "id": "e2",
+      "name": "Diya Patel",
+      "email": "diya@staffsync.demo",
+      "department": "Human Resources",
+      "position": "HR Executive",
+      "phone": "9876501002",
+      "status": "Active",
+      "joinedAt": "2023-08-01"
+    },
+    {
+      "id": "e3",
+      "name": "Kabir Verma",
+      "email": "kabir@staffsync.demo",
+      "department": "Finance",
+      "position": "Accountant",
+      "phone": "9876501003",
+      "status": "Active",
+      "joinedAt": "2024-06-17"
+    },
+    {
+      "id": "e4",
+      "name": "Anaya Singh",
+      "email": "anaya@staffsync.demo",
+      "department": "Marketing",
+      "position": "Marketing Associate",
+      "phone": "9876501004",
+      "status": "Active",
+      "joinedAt": "2022-11-03"
+    }
+  ],
+  "attendance": [],
+  "leaves": [
+    {
+      "id": "l1",
+      "employeeId": "e2",
+      "employeeName": "Diya Patel",
+      "type": "Casual Leave",
+      "from": "2026-11-02",
+      "to": "2026-11-03",
+      "reason": "Family function",
+      "status": "Pending"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "a1",
+      "title": "Welcome to StaffSync",
+      "message": "Use this portal for attendance, leave requests, and HR updates.",
+      "author": "HR Admin",
+      "date": "2026-10-29"
+    }
+  ],
+  "trainings": [
+    {
+      "id": "t1",
+      "title": "Workplace Safety",
+      "description": "Annual safety and compliance refresher.",
+      "department": "All Departments",
+      "date": "2026-11-10",
+      "status": "Scheduled"
+    }
+  ]
+}
